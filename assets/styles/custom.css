@@ -12,6 +12,30 @@ body {
     margin: 0 auto;
 }
 
+/*--------------- CLEARFIX ---------------*/
+
+.clearfix:after {
+    content: ".";
+    font-size: 0;
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+
 /*--------------- HEADER ---------------*/
 header {
     border-bottom: 4px solid #b44c4c;
