@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Brackets</title>
 </head>
+
 <body>
     <div class="container">
         <header>
@@ -13,14 +15,56 @@
             </hgroup>
             <nav>
                 <ul class="main-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Products</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="active"><a href="#">Home</a>
+                    </li>
+                    <li><a href="#">Products</a>
+                    </li>
+                    <li><a href="#">Services</a>
+                    </li>
+                    <li><a href="#">Contact</a>
+                    </li>
                 </ul>
             </nav>
         </header>
-        <section class="feature"><img src="assets/images/city.jpg"></section>
-    </div><!--container-->
+        <section class="feature">
+            <img src="assets/images/city.jpg">
+        </section>
+
+        <form action="" class="register">
+            <table cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th colspan="2">Register for Our Newletter</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td align="right">
+                            <label for="txtName">First Name</label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtName">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <label for="txtEmail">Email Address</label>
+                        </td>
+                        <td>
+                            <input type="text" id="txtEmail">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="submit" id="btnsubmit">Sign Mu Up</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+    <!--container-->
 </body>
+
 </html>
