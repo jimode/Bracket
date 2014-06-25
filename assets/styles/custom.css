@@ -87,3 +87,24 @@ header nav {
     color: #fff;
     border-radius: 20px;
 }
+
+.feature img {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.register {
+    width: 300px;
+    float: left;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.main-text {
+    width: 500px;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 20px;
+    border-left: 1px solid #ddd;
+}
