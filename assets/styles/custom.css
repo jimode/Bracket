@@ -98,13 +98,46 @@ header nav {
     width: 300px;
     float: left;
     padding: 20px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
 .main-text {
     width: 500px;
     float: right;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
     padding-left: 20px;
     border-left: 1px solid #ddd;
+}
+
+td, th {
+    padding: 5px;
+}
+
+th {
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.register table input {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 2px;
+    background-color: #fafafa;
+}
+
+.register table label {
+    font-size: 12px;
+}
+
+.register table button {
+    background-color: #b44c4c;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    padding: 2px;
+    width: 100%
 }
